@@ -48,8 +48,6 @@ const SITE = {
   address: "12 Linking Road, Bandra West, Mumbai 400050",
 };
 
-export { Home };
-
 /* ---------- Reusable ---------- */
 function Reveal({
   children,
