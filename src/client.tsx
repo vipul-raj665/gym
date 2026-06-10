@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 import { hydrateRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./routes/index";
