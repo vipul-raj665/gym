@@ -5,11 +5,4 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), tsconfigPaths()],
-  build: {
-    rollupOptions: {
-      input: {
-        client: "src/client.tsx",
-      },
-    },
-  },
 });
